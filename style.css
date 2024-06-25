@@ -1,0 +1,56 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    padding-top: 5px;
+    gap: 5px;
+}
+
+.container-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#welcome > img{
+    height: 50%;
+    width: 50%;
+}
+
+#fearlesstv > .container > img {
+    height: 50%;
+    width: 50%;
+}
+
+#welcome-banner {
+    background: linear-gradient(#BF3B37, #BC4443,#D17F85, #927EBB);
+}
+
+#fearlesstv {
+    background: linear-gradient(#512817, #B59C62, #8B6025, #F2EDB8, #E8E1DC);
+}
+
+#speaknowtv {
+    background: linear-gradient(#5E2060, #6C1365, #9647A1, #E1D5CF, #CC9AD0)
+}
+
+ol {
+    text-align: start;
+}
+
+.albumlogo {
+    height: 5rem;
+}
+
+@media(max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
