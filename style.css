@@ -37,15 +37,11 @@ body {
 }
 
 #speaknowtv {
-    background: linear-gradient(#5E2060, #6C1365, #9647A1, #E1D5CF, #CC9AD0)
+    background: linear-gradient(#5E2060, #6C1365, #9647A1, #E1D5CF, #CC9AD0);
 }
 
 ol {
     text-align: start;
-}
-
-.albumlogo {
-    height: 2.5rem;
 }
 
 @media(max-width: 768px) {
