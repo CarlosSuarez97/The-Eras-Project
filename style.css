@@ -33,20 +33,57 @@ body {
 }
 
 #fearlesstv {
-    background: linear-gradient(#512817, #B59C62, #8B6025, #F2EDB8, #E8E1DC);
+    /* background: linear-gradient(#512817, #B59C62, #8B6025, #F2EDB8, #E8E1DC); */
+    background-color: #8B6025;
 }
 
 #speaknowtv {
-    background: linear-gradient(#5E2060, #6C1365, #9647A1, #E1D5CF, #CC9AD0);
+    /* background: linear-gradient(#5E2060, #6C1365, #9647A1, #E1D5CF, #CC9AD0); */
+    background-color: #5E2060;
 }
 
 ol {
     text-align: start;
 }
 
-@media(max-width: 768px) {
+.album {
+    display: flex;
+    flex-direction: column;
+}
+
+.album > img {
+    width: 18rem;
+    margin: auto;
+}
+
+.logo {
+    width: 18rem;
+}
+
+header {
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+.carousel-item {
+    padding: 12px;
+}
+
+
+/* @media(max-width: 768px) {
     .container {
         flex-direction: column;
         align-items: center;
     }
-}
+} */
